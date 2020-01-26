@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using TMPro; 
 
 // Include the namespace required to use Unity UI
 using UnityEngine.UI;
@@ -6,9 +7,9 @@ using UnityEngine.UI;
 public class PinballGame : MonoBehaviour
 {
 
-    public Text scoreText;
-    public Text winText;
-    public Text ballsText;
+    public TextMeshProUGUI scoreText; 
+    public TextMeshProUGUI winText;
+    public TextMeshProUGUI ballsText;
 
     public int maxBalls = 3;
     public int score = 0;
